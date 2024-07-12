@@ -78,4 +78,9 @@ This project is a technical assessment designed to evaluate your skills in front
 4. Design not needed
 
 
+## Wireframe
+
+![](https://github.com/Techstuff-Cloud/Techstuff_Assessment_R-02/blob/main/public/Wireframe_Assessment-2.jpg)
+
+
 Good luck!
