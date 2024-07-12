@@ -73,6 +73,7 @@ This project is a technical assessment designed to evaluate your skills in front
 1. **Correctness:**
    - Does the implementation meet the requirements specified in each level?
    - Are API calls made correctly, and is the data rendered accurately?
+   - How to use component reusability and splitting features
 
 2. **Complete all levels**
 
