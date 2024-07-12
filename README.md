@@ -18,6 +18,13 @@ This project is a technical assessment designed to evaluate your skills in front
 
 ## Requirements
 
+### Routing
+
+1. **Create a Route**
+   - You must use the `app` directory.
+   - Create a route named `poke`.
+   - Render everything at this route.
+
 ### Level 1: Basic Table with Pagination
 
 1. **Create a Table UI:**
