@@ -21,7 +21,9 @@ This project is a technical assessment designed to evaluate your skills in front
 
 ### Wireframe
 
-Below image represent the layout structure of what needs to be build. These are **Not actual design** and you are free to make it look good as per  your imagination.
+Below image represent the layout structure of what needs to be build.
+
+These are **NOT ACTUAL DEISGN** and you are free to make it look good as per  your imagination.
 
 ![](https://github.com/Techstuff-Cloud/Techstuff_Assessment_R-02/blob/main/public/Wireframe_Assessment-2.jpg)
 
