@@ -1,98 +1,142 @@
-# Techstuff Technical Assessment
+# Pokémon Data Explorer - Technical Assessment
 
 ## Overview
 
-This project is a technical assessment designed to evaluate your skills in front-end development, including working with APIs, creating dynamic UI components, handling asynchronous data fetching, and managing errors. The assessment is structured into three levels, each with progressively complex requirements.
+This technical assessment evaluates front-end development skills using Next.js, focusing on:
+- API integration and data fetching
+- Dynamic UI component creation
+- State management
+- Error handling
+- Component reusability
+- Clean code practices
 
-## Setup Instructions
+## Tech Stack
 
-1. **Install npm dependencies:**
+- Next.js (App Router)
+- React
+- Tailwind CSS
+
+## Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   cd Techstuff_Assessment_R-02
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. **Start development server:**
+3. **Start development server**
    ```bash
    npm run dev
    ```
+   The application will be available at `http://localhost:3000`
 
-## Requirements
+## Project Requirements
 
+The project is structured into three progressive levels, each building upon the previous one.
 
-### Wireframe
+### Level 1: Pokémon Table with Pagination
 
-Below image represent the layout structure of what needs to be build.
+**Requirements:**
+1. Create a table displaying Pokémon data from `https://pokeapi.co/api/v2/pokemon`
+   - Columns: Sr. Number, Poke Name
+   - Implement at `/poke` route using Next.js App Router
 
-These are **NOT ACTUAL DESIGN** and you are free to make it look good as per  your imagination.
+2. Pagination Implementation
+   - Add Previous/Next navigation controls
+   - Display total page count
+   - Implement proper button states (disabled when appropriate)
+   - Handle data fetching for page navigation
 
-![](https://github.com/Techstuff-Cloud/Techstuff_Assessment_R-02/blob/main/public/Wireframe_Assessment-2.jpg)
+### Level 2: Interactive Pokémon Details
 
-### Routing
+**Requirements:**
+1. Clickable Pokémon Names
+   - Fetch and display detailed information on click
+   - Show Pokémon types as tabs on the right side
 
-1. **Create a Route**
-   - You must use the `app` directory.
-   - Create a route named `poke`.
-   - Render everything at this route.
+2. Type-Specific Information
+   - Display relevant data under each type tab:
+     - Game Indices count
+     - Total moves count
+   - Implement smooth tab switching with data updates
 
-### Level 1: Basic Table with Pagination
+### Level 3: Enhanced User Experience
 
-1. **Create a Table UI:**
-   - Implement a table to display a list of Pokémon.
-   - Use the API `https://pokeapi.co/api/v2/pokemon` to fetch the Pokémon list.
-   - Table columns should include:
-     - **Sr. Number**
-     - **Poke Name**
+**Requirements:**
+1. Error Handling
+   - Implement comprehensive error handling for API calls
+   - Display user-friendly error messages
+   - Handle edge cases gracefully
 
-2. **Implement Pagination:**
-   - Include pagination controls at the bottom of the table.
-   - Show the total number of pages.
-   - Disable the **Previous** button when on the first page.
-   - Disable the **Next** button when on the last page.
+2. Loading States
+   - Add loading indicators during data fetching
+   - Ensure smooth transitions between states
 
-3. **Handle Pagination Clicks:**
-   - On clicking the pagination buttons, fetch and display data for the new page.
+## Project Layout
 
-### Level 2: Detailed Information with Tabs
+The wireframe below represents the basic layout structure. You have creative freedom for the final design implementation.
 
-1. **Show Pokémon Details on Click:**
-   - When a Pokémon name is clicked, fetch detailed information using the relevant API endpoint.
-   - Display the Pokémon types as tabs on the right side of the table.
+![Wireframe](./public/Wireframe_Assessment-2.jpg)
 
-2. **Show Type-Specific Data:**
-   - Below the tabs, display data related to the selected type.
-   - Data to be displayed for each tab includes:
-     - **Game Indices:** Length of `game_indices` array.
-     - **Moves:** Length of `moves` array.
+## Development Guidelines
 
-3. **Data Loading and Display:**
-   - On selecting a tab, show the relevant data for the active type.
+1. **Code Quality**
+   - Follow React best practices
+   - Break down components logically
+   - Implement effective prop and state management
+   - Write clean, maintainable code
 
-### Level 3: Error Handling and Loading States
+2. **Git Practices**
+   - Maintain a clean and meaningful commit history
+   - Write descriptive commit messages
+   - Your git history will be reviewed to understand your development process
 
-1. **Handle Errors Gracefully:**
-   - Implement error handling to manage API call failures.
-   - Display user-friendly error messages.
+## Important Notes
 
-2. **Show Loading Indicators:**
-   - Display a loader while fetching data from the API.
-   - Ensure the loader is visible until data is fully loaded.
+1. **Time Management**
+   - Take sufficient time to demonstrate best practices
+   - Focus on code quality and architecture
+   - Don't rush the implementation
 
-## Assessment Criteria
+2. **Allowed Resources**
+   - ✅ Google search
+   - ✅ Third-party UI libraries
+   - ✅ NPM packages for functionality
 
-1. **Correctness:**
-   - Does the implementation meet the requirements specified in each level?
-   - Are API calls made correctly, and is the data rendered accurately?
-   - How to use component reusability and splitting features
+3. **Restrictions**
+   - ❌ AI tools (ChatGPT, GitHub Copilot, etc.)
+   - Note: Submissions will be verified using zerogpt.com
+   - AI usage will lead to disqualification
 
-2. **Complete all levels**
+## Evaluation Criteria
 
+1. **Functionality**
+   - Completion of all three levels
+   - Accurate API integration
+   - Proper error handling
 
-## Do's & Don't 
+2. **Code Quality**
+   - Component reusability
+   - Code organization
+   - Best practices implementation
 
-1. You can use Google.
-2. You are free to use any library for UI/UX or functionality.
-3. Artificial Intelligence(AI) not allowed, neighter in browser, nor in code editor.  We'll use [zerogpt](https://www.zerogpt.com) and you can be disqualified
-4. Design not needed
+3. **Development Process**
+   - Git commit history
+   - Problem-solving approach
+   - Code structure decisions
+
+## Submission
+
+1. Ensure all features are working as expected
+2. Verify your git history is clean and meaningful
+3. Make sure the code runs without any errors
+4. Double-check the implementation against all requirements
 
 ---
-## Good luck!
+
+Good luck with your assessment! If you have any questions, please reach out to the hiring team.
