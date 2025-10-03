@@ -18,6 +18,13 @@ This project is a technical assessment designed to evaluate your skills in front
 
 ## Requirements
 
+
+### Wireframe
+
+Below image represent the layout structure of what needs to be build. These are **Not actual design** and you are free to make it look good as per  your imagination.
+
+![](https://github.com/Techstuff-Cloud/Techstuff_Assessment_R-02/blob/main/public/Wireframe_Assessment-2.jpg)
+
 ### Routing
 
 1. **Create a Route**
@@ -85,10 +92,5 @@ This project is a technical assessment designed to evaluate your skills in front
 3. Artificial Intelligence(AI) not allowed, neighter in browser, nor in code editor.
 4. Design not needed
 
-
-## Wireframe
-
-![](https://github.com/Techstuff-Cloud/Techstuff_Assessment_R-02/blob/main/public/Wireframe_Assessment-2.jpg)
-
-
-Good luck!
+---
+## Good luck!
