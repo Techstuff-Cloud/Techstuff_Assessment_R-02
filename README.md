@@ -91,7 +91,7 @@ These are **NOT ACTUAL DESIGN** and you are free to make it look good as per  yo
 
 1. You can use Google.
 2. You are free to use any library for UI/UX or functionality.
-3. Artificial Intelligence(AI) not allowed, neighter in browser, nor in code editor.
+3. Artificial Intelligence(AI) not allowed, neighter in browser, nor in code editor.  We'll use [zerogpt](https://www.zerogpt.com) and you can be disqualified
 4. Design not needed
 
 ---
